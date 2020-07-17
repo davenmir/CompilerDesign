@@ -1,0 +1,6 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (MainDriver.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Performing Custom Build Tools
+  tiger.yy:109.19-38: warning: type clash on default action: <dec> != <>
+  tiger.yy:206.8: warning: empty rule for typed nonterminal, and no action
+  tiger.yy:218.10: warning: empty rule for typed nonterminal, and no action
+  tiger.yy: conflicts: 62 shift/reduce

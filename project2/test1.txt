@@ -1,0 +1,18 @@
+Lexcial Analysis of the file test1.tig
+        IF  2:  1
+        ID  2: 19 x
+        GE  3: 12
+       INT  3: 15 17
+      THEN  3: 18
+test1.tig:4.3: $ illegal token
+  $ -14142135
+  ^
+
+     MINUS  4:  5
+       INT  4:  6 14142135
+       END  6:  1
+ SEMICOLON  6:  4
+test1.tig:7.1: unclosed comments
+/* Finally, we have
+^
+

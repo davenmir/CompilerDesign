@@ -1,0 +1,20 @@
+/* Some basic typechecking tests. */
+let var a := 21
+    var b := "Elena"
+    var c : int := "Daniel"
+    var d := nil
+    type t = a
+    type intarray = array of int
+in
+    a := a+b;
+    print(c);
+    b := 3;
+    for i := 0 to "David" do a := i*a;
+    i := i+1;
+    if a > 17 & a <= "foo" then 27;
+    intarray[17] of "cat";
+    intarray[b] of 5;
+    fact(9,999);
+    e := fact(sumarray(intarray[53] of 17, 53));
+    e
+end

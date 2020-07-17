@@ -1,0 +1,9 @@
+/* Test the basic functionality of the Tiger lexical analyzer. */
+if /*a comment */ x /*another 
+comment */ >= 17 then
+  $ -14142135 
+
+end;	/* A comment with a /* nested comment */ in it. */
+/* Finally, we have
+ * an unclosed comment!
+ *

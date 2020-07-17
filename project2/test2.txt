@@ -1,0 +1,20 @@
+Lexcial Analysis of the file test2.tig
+    STRING  2:  1 Tyger! Tyger! burning bright
+In the forests of the night,
+    STRING  3:  1 Basic escape sequences: backslash \, newline
+, and quote ".
+       NIL  4:  1
+    ASSIGN  4:  5
+test2.tig:4.51: \p illegal token
+nil := "An unclosed string with an illegal escape \p in it.
+                                                  ^
+
+test2.tig:4.8: unclosed string
+nil := "An unclosed string with an illegal escape \p in it.
+       ^
+
+    STRING  4:  8 An unclosed string with an illegal escape  in it.
+    STRING  5:  1 Tab    escape sequences.
+test2.tig:5.28: % illegal token
+"Tab \t escape sequences." %
+                           ^

@@ -1,0 +1,220 @@
+Lexcial Analysis of the file test0.tig
+       LET  1:  1
+      TYPE  2:  3
+        ID  2:  8 arr
+        EQ  2: 12
+     ARRAY  2: 14
+        OF  2: 20
+        ID  2: 23 string
+       VAR  3:  3
+        ID  3:  7 a
+    ASSIGN  3:  9
+        ID  3: 12 arr
+    LBRACK  3: 15
+       INT  3: 16 100
+    RBRACK  3: 19
+        OF  3: 21
+    STRING  3: 24 hello
+
+      TYPE  4:  3
+        ID  4:  8 list
+        EQ  4: 13
+    LBRACE  4: 15
+        ID  4: 16 hd
+     COLON  4: 19
+        ID  4: 21 string
+     COMMA  4: 27
+        ID  4: 29 tl
+     COLON  4: 32
+        ID  4: 34 list
+    RBRACE  4: 38
+      TYPE  5:  3
+        ID  5:  8 LA
+        EQ  5: 11
+     ARRAY  5: 13
+        OF  5: 19
+        ID  5: 22 list
+       VAR  6:  3
+        ID  6:  7 b
+    ASSIGN  6:  9
+        ID  6: 12 LA
+    LBRACK  6: 14
+       INT  6: 15 10
+    RBRACK  6: 17
+        OF  6: 19
+        ID  6: 22 list
+    LBRACE  6: 26
+        ID  6: 27 hd
+        EQ  6: 30
+    STRING  6: 32
+     COMMA  6: 34
+        ID  6: 36 tl
+        EQ  6: 39
+       NIL  6: 41
+    RBRACE  6: 44
+        IN  7:  1
+        ID  8:  3 b
+    LBRACK  8:  4
+       INT  8:  5 0
+    RBRACK  8:  6
+       DOT  8:  7
+        ID  8:  8 hd
+    ASSIGN  8: 11
+        IF  8: 14
+       INT  8: 17 1
+        GT  8: 18
+       INT  8: 19 2
+       AND  8: 21
+       INT  8: 23 1
+    DIVIDE  8: 24
+       INT  8: 25 0
+      THEN  8: 27
+        ID  8: 32 a
+    LBRACK  8: 33
+       INT  8: 34 21
+    RBRACK  8: 36
+      ELSE  8: 38
+        ID  8: 43 a
+    LBRACK  8: 44
+       INT  8: 45 22
+    RBRACK  8: 47
+ SEMICOLON  8: 48
+        ID  9:  3 b
+    LBRACK  9:  4
+       INT  9:  5 0
+    RBRACK  9:  6
+       DOT  9:  7
+        ID  9:  8 tl
+    ASSIGN  9: 11
+        ID  9: 14 b
+    LBRACK  9: 15
+       INT  9: 16 0
+    RBRACK  9: 17
+ SEMICOLON  9: 18
+        ID 10:  3 print
+    LPAREN 10:  8
+        ID 10:  9 b
+    LBRACK 10: 10
+       INT 10: 11 0
+    RBRACK 10: 12
+       DOT 10: 13
+        ID 10: 14 tl
+       DOT 10: 16
+        ID 10: 17 tl
+       DOT 10: 19
+        ID 10: 20 tl
+       DOT 10: 22
+        ID 10: 23 tl
+       DOT 10: 25
+        ID 10: 26 hd
+    RPAREN 10: 28
+ SEMICOLON 10: 29
+        ID 11:  3 print
+    LPAREN 11:  8
+       INT 11:  9 1
+      PLUS 11: 10
+       INT 11: 11 2
+     TIMES 11: 12
+       INT 11: 13 10
+    DIVIDE 11: 15
+       INT 11: 16 2
+     MINUS 11: 17
+       INT 11: 18 9
+    RPAREN 11: 19
+ SEMICOLON 11: 20
+     WHILE 12:  3
+       INT 12:  9 1
+        LE 12: 10
+       INT 12: 12 2
+        OR 12: 14
+       INT 12: 16 2
+        GE 12: 18
+       INT 12: 21 3
+        DO 12: 23
+    LPAREN 13:  5
+        ID 13:  6 a
+    LBRACK 13:  7
+       INT 13:  8 0
+    RBRACK 13:  9
+ SEMICOLON 13: 10
+        ID 13: 12 a
+    LBRACK 13: 13
+       INT 13: 14 0
+    RBRACK 13: 15
+      PLUS 13: 17
+    STRING 13: 19 test
+ SEMICOLON 13: 25
+        ID 13: 27 a
+    LBRACK 13: 28
+       INT 13: 29 1
+    RBRACK 13: 30
+    RPAREN 13: 31
+ SEMICOLON 13: 32
+       FOR 14:  3
+        ID 14:  7 i
+    ASSIGN 14:  9
+       INT 14: 12 1
+        TO 14: 14
+       INT 14: 17 80
+     TIMES 14: 19
+       INT 14: 20 99
+        DO 14: 23
+       LET 15:  5
+       VAR 16:  4
+        ID 16:  8 value
+     COLON 16: 14
+        ID 16: 16 int
+    ASSIGN 16: 20
+       INT 16: 23 0
+  FUNCTION 18:  4
+        ID 18: 13 sum
+    LPAREN 18: 16
+        ID 18: 17 i
+     COLON 18: 19
+        ID 18: 21 int
+     COMMA 18: 24
+        ID 18: 26 n
+     COLON 18: 28
+        ID 18: 30 int
+    RPAREN 18: 33
+     COLON 18: 35
+        ID 18: 37 int
+        EQ 18: 41
+    LPAREN 19:  6
+       FOR 19:  7
+        ID 19: 11 t
+        EQ 19: 13
+        ID 19: 15 i
+        TO 19: 17
+        ID 19: 20 n
+        DO 19: 22
+        ID 20:  6 value
+    ASSIGN 20: 12
+        ID 20: 15 value
+      PLUS 20: 21
+        ID 20: 23 t
+ SEMICOLON 20: 24
+        ID 21:  4 value
+    RPAREN 21:  9
+  FUNCTION 23:  4
+        ID 23: 13 printline
+    LPAREN 23: 22
+    RPAREN 23: 23
+        EQ 23: 25
+        ID 24:  6 print
+    LPAREN 24: 11
+    STRING 24: 12
+
+    RPAREN 24: 16
+        IN 25:  2
+        ID 26:  4 print
+    LPAREN 26:  9
+        ID 26: 11 sum
+    LPAREN 26: 14
+       INT 26: 15 1
+     COMMA 26: 16
+       INT 26: 18 10
+    RPAREN 26: 20
+    RPAREN 26: 22
+       END 27:  2
+       END 28:  1

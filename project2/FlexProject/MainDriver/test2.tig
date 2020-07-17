@@ -1,0 +1,6 @@
+/* Test the remaining string literal escape sequences. */
+"Tyger! Tyger! burning bright\nIn the forests of the night,"
+"Basic escape sequences: backslash \\, newline \n, and quote \"."
+nil := "An unclosed string with an illegal escape \p in it.
+"Tab \t escape sequences." %
+

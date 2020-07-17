@@ -1,0 +1,29 @@
+let
+  type arr = array of string
+  var a := arr[100] of "hello\n"
+  type list = {hd : string, tl : list}	
+  type LA = array of list
+  var b := LA[10] of list{hd = "", tl = nil}
+in
+  b[0].hd := if 1>2 & 1/0 then a[21] else a[22];
+  b[0].tl := b[0];
+  print(b[0].tl.tl.tl.tl.hd);
+  print(1+2*10/2-9);
+  while 1<=2 | 2 >= 3 do
+    (a[0]; a[0] + "test"; a[1]);
+  for i := 1 to 80*99 do
+    let
+	  var value : int := 0
+
+	  function sum(i : int, n : int) : int =
+	    (for t = i to n do
+		   value := value + t;
+		 value)
+
+	  function printline() = 
+	    print("\n")
+	in
+	  print( sum(1, 10) )
+	end
+end
+

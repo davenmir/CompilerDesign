@@ -1,0 +1,7 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (FlexBisonTools.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  tiger.tab.cc
+c:\users\c1408814\desktop\4160\projects\project4\absynproject\maindriver\tiger.tab.cc(865): warning C4065: switch statement contains 'default' but no 'case' labels
+c:\users\c1408814\desktop\4160\projects\project4\absynproject\maindriver\tiger.tab.cc(1237): warning C4065: switch statement contains 'default' but no 'case' labels
+  lex.yy.cc
+c:\users\c1408814\desktop\4160\projects\project4\absynproject\maindriver\lex.yy.cc(691): warning C4102: 'find_rule': unreferenced label
+  MainDriver.vcxproj -> C:\Users\c1408814\Desktop\4160\Projects\project4\AbsynProject\Debug\MainDriver.exe
